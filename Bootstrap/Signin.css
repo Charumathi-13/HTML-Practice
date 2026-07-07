@@ -1,0 +1,99 @@
+.leftwrap{
+    background-color: #4284F3;
+    height: 100vh;
+}
+.wel{
+    color: #FFFFFF;
+    margin-top: 156px;
+    margin-left: 139px;
+    font-family: sans-serif;
+    width: 372px;
+}
+.one{
+    height: 67px;
+    margin-left: 130px;
+    padding: 15px;
+    bottom: 50px;
+}
+.nur{
+     margin-left: 100px;
+    height: 230px;
+    padding: 30px;
+    margin-top: 40px;
+}
+.man{
+    margin-left: 130px;
+    height: 57px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.rightwrap{
+    margin-top: 150px;
+}
+.right{
+    margin-left: 100px;
+}
+.sig{
+    margin-top: 156px;
+    font-size: 30px;
+}
+.word{
+    color: gray;
+}
+.ema{
+    width: 103;
+    height: 19;
+    top: 358px;
+    left: 1230px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.pas{
+    width: 71;
+    height: 19;
+    top: 447px;
+    left: 1230px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.check{
+    position: relative;
+    margin-top: 15px;
+}
+.me{
+    color: black;
+}                     
+.for{
+    width: 140;
+    height: 20;
+    top: 557px;
+    margin-left: 100px;
+    font-family: Roboto;
+    font-size: 15px;
+    color:#4284F3;
+}
+.signin{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color:dodgerblue;
+    color: aliceblue;
+    padding: 10px;
+}
+.signup{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color:white;
+    color: black;
+    padding: 10px;
+}
+
+.emailinput{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+.passwordinput{
+    width: 300px;
+    height: 40px;
+}

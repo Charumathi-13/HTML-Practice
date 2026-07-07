@@ -1,0 +1,104 @@
+.leftwrap{
+    background-color: #4284F3;
+    height: 100vh;
+}
+.wel{
+    color: #FFFFFF;
+    margin-top: 156px;
+    margin-left: 139px;
+    font-family: sans-serif;
+    width: 372px;
+}
+.one{
+   height: 67px;
+    margin-left: 130px;
+    padding: 15px;
+    bottom: 50px;
+}
+.doc{
+     margin-left: 100px;
+    height: 230px;
+    padding: 30px;
+    margin-top: 40px;
+}
+.man{
+    margin-left: 130px;
+    height: 57px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.rightwrap{
+      margin-top: 150px;
+}
+.right{
+    margin-left: 100px;
+}
+.sig{
+    margin-top: 100px;
+    font-size: 30px;
+}
+.word{
+    color: gray;
+}
+.firstinput{
+    width: 150px;
+    height: 40px;
+}
+.lastinput{
+    width: 150px;
+    height: 40px;
+}
+.phoneinput{
+     width: 150px;
+     height: 40px;
+     margin-top: 10px;
+}
+.emailinput{
+     width: 150px;
+     height: 40px;
+}
+.passinput{
+     width: 150px;
+     height: 40px;
+     margin-top: 10px;
+}
+.cpassinput{
+     width: 150px;
+     height: 40px;
+}
+.hosinput{
+     width: 305px;
+     height: 40px;
+     margin-top: 10px;
+}
+.stateinput{
+     width: 150px;
+     height: 40px;
+     margin-top: 10px;
+}
+.zipinput{
+     width: 150px;
+     height: 40px;
+}
+.check{
+    position: relative;
+    margin-top: 15px;
+}
+.me{
+    color: black;
+}                   
+.signin{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color:dodgerblue;
+    color: aliceblue;
+    padding: 10px;
+}
+.signup{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color:white;
+    color: black;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+.hlo {
+    color: aqua;
+    margin-left: 200px;
+    margin-top: 500px;
+}
+
+.wraps {
+    margin-left: 200px; 
+    border: 1px solid black;
+    width: 80px;
+    padding: 10px;
+}

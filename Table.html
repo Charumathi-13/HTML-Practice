@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <table border="1">
+<thead>
+<tr>
+    <th>SI.NO</th>
+    <th>First name</th>
+    <th>Last name</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td>1</td>
+    <td>Charu</td>
+    <td>Mathi</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Thilakam</td>
+    <td>Purushothaman</td>
+</tr>
+</tbody>
+
+ <tfoot>
+
+</tfoot>
+    </table>
+
+    <script>
+        // let a = 10 ----------- int
+        // let b = 20.4 --------- float
+        // let c = true --------- boolean
+        // let d = "Charu" ------ string
+
+        let a = "Welcome"
+        console.log(a);
+
+        let b = 5
+        let c = 5
+        console.log(b + c)
+        console.log(b - c)
+        console.log(b * c)
+        console.log(b / c)
+        console.log(b % c)
+        console.log(b ** c)      
+
+        let d =20 
+        let e =60
+        let f =90
+        let g =70
+        let h =10
+
+        if(d > e && d > f && d > g && d > h){
+            console.log("D is greater");
+        }
+        else if(e > d && e > f && e > g && e > h){
+            console.log("E is greater");
+            
+        }
+         else if(f > d && f > e && f > g && f > h){
+            console.log("F is greater");
+            
+        }
+         else if(g > d && g > e && g > f && g > h){
+            console.log("G is greater");
+        }
+        else{
+            console.log("H is greater");
+            
+        }
+
+        let i =20 
+        let j =60
+        let k =90
+        let l =70
+        let m =10
+
+        if(i < j && i < k && i < l &&  i < m){
+            console.log("I  is smaller");
+        }
+        else if(j < i && j < k && j < l &&  j < m){
+            console.log("J is smaller");  
+        }
+        else if(k < i && k < j && k < l &&  k < m){
+            console.log("K is smaller");  
+        }
+        else if(l < i && l < j && l < k &&  l < m){
+            console.log("L is smaller");  
+        }
+        else{
+            console.log("M is smaller");
+            
+        }
+
+        let arr = [10, 20, 30, "Welcome", 50.5]
+        console.log(arr);
+// To store multiple values, we use arrays and objects
+//6 Array Methods
+//Inserts an element at end
+        arr.push(100)  
+        console.log(arr);
+        
+        arr.push("Greens")
+        console.log(arr);
+
+//Removes an element at end
+        arr.pop()
+        console.log(arr);
+
+//Inserts an element at beginning
+        arr.unshift(0)
+        console.log(arr);
+
+//Removes an element at beginning
+        arr.shift()
+        console.log(arr);
+
+//Counts the element in an array, we use length
+        console.log(arr.length);
+
+//To access particular elment, we use index
+        console.log(arr[3]);
+
+//Object (Only single property)
+let obj = { name : "greens" , tech : "Frontend" , age : 20}
+console.log(obj.name);
+console.log(obj.age);
+    </script>
+</body>
+
+</html>

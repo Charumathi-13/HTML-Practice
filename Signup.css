@@ -1,0 +1,20 @@
+.whole{
+    background-image: url(./Images/blush.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.sidewrap{
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 160px;
+    height: 86vh;
+    justify-content: space-evenly;
+}
