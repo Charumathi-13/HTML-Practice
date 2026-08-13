@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter number 1" id ="number1"/>
+    <input type="text" placeholder="Enter number 2" id ="number2"/>
+    <button onclick="handleAdd()">Add</button>
+
+    <script>
+        function handleAdd(){
+            let num1 = document.getElementById("number1").value
+            let num2 = document.getElementById("number2").value
+
+            console.log(parseInt(num1) + parseInt(num2));
+             
+        }
+    </script>
+</body>
+</html>

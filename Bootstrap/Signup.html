@@ -19,22 +19,48 @@
                 <div class="right">
                 <label class="sig">Sign Up</label></br>
                 <label class="word">We have Happy to be in our OneRec Portal.<br/>Sign in and explore OneRec</label><br/>
-                <input type="text" placeholder="Firstname" class="firstinput"/>
-                <input type="text" placeholder="Lastname" class="lastinput"/><br/>
-                <input type="number" placeholder="Phone number" class="phoneinput">
-                <input type="email" placeholder="Enter ur email" class="emailinput"/><br/>
-                <input type="password" placeholder="Password" class="passinput"/>
-                <input type="password" placeholder="Confirm Password" class="cpassinput"/><br/>
-                <input type="text" placeholder="Hospital Name" class="hosinput"/><br/>       
-                <input type="text" placeholder="State" class="stateinput">
-                <input type="number" placeholder="Zip Code" class="zipinput"/><br/>
+                <input type="text" placeholder="Firstname" class="firstinput" id="firstname"/>
+                <input type="text" placeholder="Lastname" class="lastinput" id="lastname"/><br/>
+                <input type="number" placeholder="Phone number" class="phoneinput" id="phnumber">
+                <input type="email" placeholder="Enter ur email" class="emailinput" id="emailid"/><br/>
+                <input type="password" placeholder="Password" class="passinput" id="password"/>
+                <input type="password" placeholder="Confirm Password" class="cpassinput" id="cpassword"/><br/>
+                <input type="text" placeholder="Hospital Name" class="hosinput" id="hosname"/><br/>       
+                <input type="text" placeholder="State" class="stateinput" id="statename">
+                <input type="number" placeholder="Zip Code" class="zipinput" id="zipcode"/><br/>
                 <div class="check">
-                    <input type="checkbox"/>
+                    <input type="checkbox" id="check"/>
                 <label class="me">I agree to all the terms and privacy policy</label><br/>  
                 <button class="signin">Sign In</button>
-                <button class="signup">Sign Up</button>
+                <button class="signup" onclick="handleSignup()">Sign Up</button>
+                    </div>
             </div>
-            </div>
+
+                <script>
+                    function handleSignup(){
+                    let fname = document.getElementById("firstname").value
+                    let lname = document.getElementById("lastname").value
+                    let phonenumber = document.getElementById("phnumber").value
+                    let emaill = document.getElementById("emailid").value
+                    let pass = document.getElementById("password").value
+                    let cpass = document.getElementById("cpassword").value
+                    let hname = document.getElementById("hosname").value
+                    let sname = document.getElementById("statename").value
+                    let zname = document.getElementById("zipcode").value
+                    let cname = document.getElementById("check").value
+
+                    if(fname == '' || lname == '' || phonenumber == '' || emaill == '' || pass == '' || cpass == '' || hname == '' || sname == '' || zname == '' || cname == ''){
+                        alert("Please fill in all fields!!!");
+                    }else{
+                        localStorage.setItem("EmailId" , emaill)
+                        localStorage.setItem("Password" , pass)
+                        alert("Signup Successfull!!!");
+                        window.location.href = "Signin.html"
+                    }
+                }
+                </script>
+
+            
 </body>
 
 </html>

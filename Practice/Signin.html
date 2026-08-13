@@ -16,40 +16,21 @@
                 <label class="man">Manage your Patients</label>
             </div>
 
-            <div class="col-5 rightwrap">
+            <div class="col-5" rightwrap>
                 <div class="right">
                 <label class="sig">Sign In</label></br>
                 <label class="word">We have Happy to be in our OneRec Portal.<br/>Sign in and explore OneRec</label><br/>
                 <!-- <label class="ema">Email Address</label><br/> -->
-                <input type="email" placeholder="Enter ur email" class="emailinput" id="ema"/><br/>
+                <input type="email" placeholder="Enter ur email" class="emailinput"/><br/>
                 <!-- <label class="pas">Password</label><br/> -->
-                <input type="password" placeholder="Enter ur password" class="passwordinput" id="pass"><br/>
+                <input type="password" placeholder="Enter ur password" class="passwordinput"/><br/>
                 <div class="check">
                     <input type="checkbox"/>
                 <label class="me">Remember me</label>
                 <label class="for">Forgot password ?</label><br/>
                     </div>
-                <button class="signin" onclick="handleSignin()">Sign In</button>
+                <button class="signin">Sign In</button>
                 <button class="signup">Sign Up</button>
-
-                <script>
-                    function handleSignin(){
-                        let signinemail = document.getElementById("ema").value
-                        let signinpass = document.getElementById("pass").value
-
-                        let signupemail = localStorage.getItem("EmailId")
-                        let signupass = localStorage.getItem("Password")
-        
-                        if(signinemail == '' || signinpass == ''){
-                             alert("Pls fill in all fields!!!")
-                        }else if(signupemail == signinemail && signupass == signinpass){
-                             alert("Signin successfull!!!")
-                        }
-                        else{
-                             alert("Invalid creds")
-                        }
-                    }
-                </script>
             </div>
         </div>
     </body>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <input type="number" placeholder="Enter a number" id="number"/>
+   <button onclick="handleSubmit()">Submit</button>
+
+   <script>
+     function handleSubmit(){
+            let year = document.getElementById("number").value
+            if(year  % 4 == 0){
+                console.log("It's a leap year");  
+            }else{
+                console.log("It's not a leap year");
+            }
+        }n
+             
+   </script>
+</body>
+</html>

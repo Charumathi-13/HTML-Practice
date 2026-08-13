@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <input type="text" placeholder="Enter ur username" id="user"/>
+    <input type="text" placeholder="Enter ur password" id="pass"/>
+    <button onclick="handleLogin()">Login</button>
+
+    <script>
+        function handleLogin(){
+        let loginuser = document.getElementById("user").value
+        let loginpass = document.getElementById("pass").value
+
+        let signupuser = localStorage.getItem("username")
+        let signupass = localStorage.getItem("password")
+        
+        if(loginuser == '' || loginpass == ''){
+            alert("Pls fill in all fields!!!")
+        }else if(signupuser == loginuser && signupass == loginpass){
+            alert("Login successfull!!!")
+        }
+        else{
+            alert("Invalid creds")
+        }
+    }
+    </script>
+</body>
+</html>

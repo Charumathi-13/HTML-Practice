@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <input type="number" placeholder="Enter a number" id="number"/>
+   <button onclick="handleSubmit()">Submit</button>
+
+   <script>
+     function handleSubmit(){
+            let num = document.getElementById("number").value
+            if(num  % 2 == 0){
+                console.log("It's an even number");  
+            }else{
+                console.log("It's an odd number");
+            }
+        }
+             
+   </script>
+</body>
+</html>

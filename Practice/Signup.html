@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup page</title>
+</head>
+<body>
+    <h3>Signup</h3>
+    <input type="text" placeholder="Firstname" id="firstname"/><br/>
+    <input type="text" placeholder="Lastname" id="lastname"/><br/>
+    <input type="number" placeholder="Phone number" id="phnumber"><br/>
+    <input type="text" placeholder="Username" id="username"/><br/>
+     <input type="password" placeholder="Password" id="password"/><br/>
+     <button onclick="handleSignup()">Sign Up</button>
+
+     <script>
+
+        function handleSignup(){
+        let fname = document.getElementById("firstname").value
+        let lname = document.getElementById("lastname").value
+        let phonenumber = document.getElementById("phnumber").value
+        let uname = document.getElementById("username").value
+        let pass = document.getElementById("password").value
+    
+
+        if(fname == '' || lname == '' || phonenumber == '' || uname == '' || pass == ''){
+            console.log("Please fill in all fields!");
+        }
+        else{
+            localStorage.setItem("username" , uname)
+            localStorage.setItem("password" , pass)
+            console.log("Signup Successful");
+            window.location.href = "Signin.html"
+            
+        }
+
+    }
+     </script>
+</body>
+</html>
